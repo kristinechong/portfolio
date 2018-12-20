@@ -146,10 +146,16 @@ line-height: 2px;
   padding: 0px;
 }
 
+.card-img-top:hover {
+  display: none;
+}
+
 .au-pair:hover {
   content: url(Images/Airbnb-Au-Pair-Hover.png);
   display: block;
   position: absolute;
+  width: 100%;
+  height: auto;
   box-shadow: 0px 10px 30px #33333327;
   left: 0px; /* change this value to one that suits you */
   top: 0px; /* change this value to one that suits you */
@@ -159,6 +165,8 @@ line-height: 2px;
   content: url(Images/LAHSA-Hover.png);
   display: block;
   position: absolute;
+  width: 100%;
+  height: auto;
   box-shadow: 0px 10px 30px #33333327;
   left: 0px; /* change this value to one that suits you */
   top: 0px; /* change this value to one that suits you */
@@ -168,6 +176,8 @@ line-height: 2px;
   content: url(Images/USDA-Hover.png);
   display: block;
   position: absolute;
+  width: 100%;
+  height: auto;
   box-shadow: 0px 10px 30px #33333327;
   left: 0px; /* change this value to one that suits you */
   top: 0px; /* change this value to one that suits you */
@@ -177,6 +187,8 @@ line-height: 2px;
   content: url(Images/Local-Eyes-Hover.png);
   display: block;
   position: absolute;
+  width: 100%;
+  height: auto;
   box-shadow: 0px 10px 30px #33333327;
   left: 0px; /* change this value to one that suits you */
   top: 0px; /* change this value to one that suits you */
@@ -190,6 +202,7 @@ line-height: 2px;
 .footer {
   background-color: white;
   position: absolute;
+  display: block;
   height: 150px;
   width: 100%;
   margin: 20px 0px 0px 0px;
