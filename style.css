@@ -152,8 +152,8 @@ line-height: 2px;
 
 .au-pair:hover {
   content: url(Images/Airbnb-Au-Pair-Hover.png);
-  display: block;
-  position: absolute;
+  display: inline-block;
+  position: relative;
   width: 100%;
   height: auto;
   box-shadow: 0px 10px 30px #33333327;
@@ -163,8 +163,8 @@ line-height: 2px;
 
 .lahsa:hover {
   content: url(Images/LAHSA-Hover.png);
-  display: block;
-  position: absolute;
+  display: inline-block;
+  position: relative;
   width: 100%;
   height: auto;
   box-shadow: 0px 10px 30px #33333327;
@@ -174,8 +174,8 @@ line-height: 2px;
 
 .usda:hover {
   content: url(Images/USDA-Hover.png);
-  display: block;
-  position: absolute;
+  display: inline-block;
+  position: relative;
   width: 100%;
   height: auto;
   box-shadow: 0px 10px 30px #33333327;
@@ -185,8 +185,8 @@ line-height: 2px;
 
 .local-eyes:hover {
   content: url(Images/Local-Eyes-Hover.png);
-  display: block;
-  position: absolute;
+  display: inline-block;
+  position: relative;
   width: 100%;
   height: auto;
   box-shadow: 0px 10px 30px #33333327;
