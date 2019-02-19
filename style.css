@@ -28,11 +28,12 @@
   align-content: center;
   position: relative;
   display: block;
-  font-size: 24px;
+  font-size: 20px;
   font-family: questa-sans, sans-serif;
   font-weight: 500;
   font-style: normal;
-  margin: 0px 15px 0px 15px; 
+  /* margin: 0px 15px 0px 15px;  */
+  margin: 0% 4% 0% 4%;
 }
 
 .navbar-toggler {
@@ -41,15 +42,47 @@
   flex-wrap: nowrap;
   justify-content: right;
   margin: 0px 15px 0px 15px; 
+  border-color: #333333;
+}
 
+.custom-toggler.navbar-toggler {
+  border-color: #333333;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(51,51,51, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .navbar-nav {
-  margin: 0px 0px 0px 0px;
+  margin: 0% 5% 0% 5%;
   padding: 0;
   display: flex;
   justify-content: right;
   width: 100%;
+}
+
+
+.navbar-nav > li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #FF7977,#FCCE90);
+  /* background-color: #E07C60; */
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.navbar-nav a:hover:before, .navbar-nav li:hover > a:before, .navbar-nav .menu-active > a:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  transition: all 0.5s ease;
 }
 
 .navbar-collapse {
@@ -63,7 +96,7 @@
 .nav-item {
   position: relative;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   font-family: questa-sans, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -73,10 +106,12 @@
 }
 
 .nav-link {
+  color: #333333;
   position: relative;
   display: flex;
   justify-content: center;
   background: white;
+  color: #333333;
   padding: 10px 0px 10px 0px;
   margin: 0px 30px 0px 30px; 
   transition: color .3s ease;
@@ -84,10 +119,14 @@
 
 .nav-link:hover {
   color: #333333;
+}
+
+/* .nav-link:hover {
+  color: #333333;
   font-weight: 700;
   box-shadow: 0 -4px 0 #CEE5E3 inset;
   transition: 0.2s;
-}
+} */
 
 /* -------------------
     ABOUT ME MODAL
@@ -142,9 +181,11 @@
 -------------------- */
 
 .jumbotron {
-  background-color: #4d8e913b;
+  background-color: transparent;
+  /* background-color: #4d8e913b; */
   /* padding: 50px 100px 50px 100px; */
   color: #333333;
+  height: 150px;
 }
 
 .jumbotron-align {
@@ -159,7 +200,7 @@
   font-family: questa-sans, sans-serif;
   font-weight: 700;
   font-style: bold;
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
   display: block;
   flex-wrap: wrap;
@@ -171,7 +212,7 @@
   font-family: questa-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   display: block;
   flex-wrap: wrap;
@@ -399,11 +440,11 @@
   }
 
   .header {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .about {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .container {
