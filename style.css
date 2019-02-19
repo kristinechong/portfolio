@@ -28,7 +28,7 @@
   align-content: center;
   position: relative;
   display: block;
-  font-size: 20px;
+  font-size: 22px;
   font-family: questa-sans, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -96,7 +96,7 @@
 .nav-item {
   position: relative;
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   font-family: questa-sans, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -212,7 +212,7 @@
   font-family: questa-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   display: block;
   flex-wrap: wrap;
